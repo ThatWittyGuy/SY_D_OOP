@@ -1,5 +1,5 @@
 import java.util.*;
-class Solution {
+class subarraySum {
     static ArrayList<Integer> subarraySum(int[] arr, int target) {
         ArrayList<Integer> result = new ArrayList<>();
         int start = 0;

@@ -1,5 +1,5 @@
 // User function Template for Java
-class Solution {
+class missingNumber {
     int missingNumber(int arr[]) {
         int n = arr.length + 1;
 

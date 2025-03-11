@@ -2,7 +2,7 @@ import java.util.*;
 class Solution {
 
     // Function to return length of longest subsequence of consecutive integers.
-    public int longestConsecutive(int[] arr) {
+    public int longestconsecutiveseq(int[] arr) {
        if (arr == null || arr.length == 0) {
             return 0;
         }
