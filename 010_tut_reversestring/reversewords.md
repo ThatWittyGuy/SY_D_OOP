@@ -74,6 +74,3 @@ return reversedWord;
 ```
 Finally, this line returns the fully constructed reversed word back to where it was called from. 
 
-With this breakdown, you should have a clear understanding of how each part of the code works!
-
----
