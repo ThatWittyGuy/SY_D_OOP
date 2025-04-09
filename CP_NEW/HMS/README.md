@@ -125,6 +125,9 @@ If you’re compiling manually from terminal:
 ```bash
 javac -cp .;path-to/mysql-connector-j.jar db/*.java gui/*.java Main.java
 java -cp .;path-to/mysql-connector-j.jar Main
+
+PS E:\VIT PUNE '27\S.Y - DOME\OOP Main\CP_NEW\HMS\src> javac -cp ".;../lib/mysql-connector-j-9.2.0.jar" db/*.java gui/*.java Main.java
+PS E:\VIT PUNE '27\S.Y - DOME\OOP Main\CP_NEW\HMS\src> java -cp ".;../lib/mysql-connector-j-9.2.0.jar" Main
 ```
 Note: On macOS/Linux, replace `;` with `:` in the classpath.
 
