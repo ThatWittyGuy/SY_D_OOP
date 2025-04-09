@@ -8,6 +8,7 @@ This project is a Hospital Management System built using Java Swing for GUI and 
 - Display doctor availability status as "Yes" or "No".
 - Navigate using a basic dashboard.
 - Easily go back to the dashboard using the Back button (with `dispose()` functionality).
+- reference: https://www.youtube.com/watch?v=Lij8svibdho
 
 ## ✅ File Descriptions
 1. **Main.java**: The starting point of the project. It launches the dashboard window.
