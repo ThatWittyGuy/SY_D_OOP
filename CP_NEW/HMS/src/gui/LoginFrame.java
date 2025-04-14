@@ -116,12 +116,14 @@ public class LoginFrame extends JFrame {
         welcomeLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         JTextArea aboutText = new JTextArea(
-            "This Hospital Management System allows you to manage:\n" +
+            "This Hospital Management System allows you(admin) to manage:\n" +
             "• Patients\n" +
             "• Doctors\n" +
-            "• Appointments\n\n" +
+            "• Appointments\n" +
+            "• Medical History\n" +
+            "• Diagnosis\n\n" +
             "Login using your admin credentials to continue.\n\n" +
-            "Developed using Java + MySQL + Swing."
+            "Developed using Java + MySQL + Swing by Atharva"
         );
         aboutText.setWrapStyleWord(true);
         aboutText.setLineWrap(true);
