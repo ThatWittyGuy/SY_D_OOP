@@ -1,5 +1,10 @@
 # Hospital Management System using Java and MYSQL by Atharva Salitri
 
+javac -cp "lib/mysql-connector-j-9.2.0.jar" -d bin src/db/DBConnection.java src/gui/*.java src/Main.java
+
+java -cp "bin;lib/mysql-connector-j-9.2.0.jar" Main
+
+
 ## ✅ Project Summary
 This project is a Hospital Management System built using Java Swing for GUI and MySQL for the database. It's designed to help manage doctors (patients and appointments modules coming soon). The system allows users to:
 - Add, edit, delete doctor records.

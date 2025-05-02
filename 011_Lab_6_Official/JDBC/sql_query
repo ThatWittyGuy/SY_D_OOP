@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS ooplab6;
+USE ooplab6;
+
+CREATE TABLE IF NOT EXISTS employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL
+);
+
+INSERT INTO employees (name, age) VALUES
+('John Doe', 30),
+('Jane Smith', 28),
+('Alice Johnson', 35),
+('Bob Brown', 40),
+('Charlie Davis', 25);
+
+SELECT * FROM employees;
