@@ -1,3 +1,4 @@
+// InsufficientFundsException
 import java.util.Scanner;
 
 class InsufficientFundsException extends Exception {

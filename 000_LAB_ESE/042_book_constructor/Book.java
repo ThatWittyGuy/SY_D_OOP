@@ -62,3 +62,46 @@ public class Book {
         Book book3 = new Book(title3, author3, price3);
     }
 }
+
+
+// TRAFFIC LIGHT
+
+// class TrafficLight {
+//     private String color;
+//     private int duration;
+
+//     TrafficLight(String color, int duration) {
+//         this.color = color;
+//         this.duration = duration;
+//     }
+
+//     public void changeColor(String newColor, int newDuration) {
+//         color = newColor;
+//         duration = newDuration;
+//     }
+
+//     public boolean isRed() {
+//         return color.equalsIgnoreCase("red");
+//     }
+
+//     public boolean isGreen() {
+//         return color.equalsIgnoreCase("green");
+//     }
+
+//     public void start() throws InterruptedException {
+//         for(int i =0;i<3;i++) {
+//             System.out.println("Light is " + color + " for " + duration + " seconds");
+//             Thread.sleep(duration * 1000);
+//             if (color.equalsIgnoreCase("red")) changeColor("green", 5);
+//             else if (color.equalsIgnoreCase("green")) changeColor("yellow", 2);
+//             else if (color.equalsIgnoreCase("yellow")) changeColor("red", 7);
+//         }
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) throws InterruptedException {
+//         TrafficLight light = new TrafficLight("red", 7);
+//         light.start();
+//     }
+// }

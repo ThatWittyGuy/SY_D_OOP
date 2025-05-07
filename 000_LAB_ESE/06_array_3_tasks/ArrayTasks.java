@@ -28,7 +28,7 @@ public class ArrayTasks {
         }
     }
 
-    // Merge two arrays into a single sorted array (no inbuilt sort)
+    // Merge two arrays into a single sorted array 
     public static int[] mergeAndSort(int[] arr1, int[] arr2) {
         int n1 = arr1.length, n2 = arr2.length;
         int[] merged = new int[n1 + n2];
@@ -83,3 +83,4 @@ public class ArrayTasks {
         printArray(merged);
     }
 }
+

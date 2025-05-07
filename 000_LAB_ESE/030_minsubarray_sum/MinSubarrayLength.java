@@ -23,6 +23,7 @@ public class MinSubarrayLength {
                 left++;
             }
         }
+        System.out.println("Minimum Length of Subarray is");
         if (minLen == Integer.MAX_VALUE) {
             System.out.println(0);
         } else {
