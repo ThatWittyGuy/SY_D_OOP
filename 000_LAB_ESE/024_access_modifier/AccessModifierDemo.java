@@ -41,6 +41,7 @@ public class AccessModifierDemo {
     public static void main(String[] args) {
         Employee emp = new Employee("Alice", 30, "Delhi", "9876543210", "E101");
         emp.displayDetails();
+        // System.out.println(emp.name); // Not allowed
         System.out.println("Phone Number: " + emp.phoneNumber);
         emp.updatePhoneNumber("9123456789");
         System.out.println("Updated Phone Number: " + emp.phoneNumber);
